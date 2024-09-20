@@ -1,0 +1,89 @@
+.hero {
+  background: #e0e0e0;
+  padding: 100px 0;
+  text-align: center;
+  height: 300px;
+
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.features-section {
+  padding: 60px 0;
+}
+
+.footer {
+  background: #f8f9fa;
+  padding: 40px 0;
+  text-align: center;
+}
+
+#navbarNav {
+  justify-content: space-between;
+}
+
+.centered-container {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card img {
+  width: 100%;
+}
+
+#carouselExampleCaptions .carousel-inner {
+  display: flex;
+  overflow: hidden;
+
+}
+
+
+#carouselExampleCaptions .carousel-item {
+  justify-content: space-between;
+
+}
+
+#carouselExampleCaptions .carousel-item img {
+  width: calc(33.333% - 10px);
+  height: 350px;
+  object-fit: cover;
+}
+
+
+#carouselExampleCaptions .carousel-item img:not(:last-child) {
+  margin-right: 10px;
+}
+
+
+@media (max-width: 768px) {
+  #carouselExampleCaptions .carousel-item img {
+    width: calc(50% - 10px);
+
+  }
+}
+
+@media (max-width: 576px) {
+  #carouselExampleCaptions .carousel-item img {
+    width: 100%;
+
+  }
+}
+
+.hero {
+  background-image: url("./images/crows-8579540_1280.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
